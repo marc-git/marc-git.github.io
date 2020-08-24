@@ -1,2 +1,3 @@
 name: Marc Graham
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
