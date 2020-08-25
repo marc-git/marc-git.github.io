@@ -1,4 +1,11 @@
-# Gaussian Quadrature on Simplexes 
+---
+layout:posts
+title: "Gaussian Quadrature on Simplices"
+date: 2020-09-25
+usemathjax: true
+---
+
+# Gaussian Quadrature on Simplices 
 
 It isn't easy to find reliable [Gaussian Quadrature](https://en.wikipedia.org/wiki/Gaussian_quadrature) points 
 for multiple dimensional domains with strictly positive weights.  If one finds them, the uncomfortable risk  
