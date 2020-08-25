@@ -46,11 +46,10 @@ $$
 
 ## Gauss Legendre Quadrature
 ### Weights
-As per the details in the [Wikipedia Article](https://en.wikipedia.org/wiki/Gaussian_quadrature#Gauss%E2%80%93Legendre_quadrature) 
-the weights of the integration points are calculated as 
+As per the details in the [Wikipedia Article](https://en.wikipedia.org/wiki/Gaussian_quadrature#Gauss%E2%80%93Legendre_quadrature) the weights of the integration points are calculated as 
 $$w_i = \frac{2}{\left(1-x_i^2\right)\left(P_n'(x_i)\right)}
 $$
-where the x_i is the quadrature node point in the interval. The locations of those points correspond to the roots of the polynomial. We 
+where the x_i is the quadrature node point in the interval. The locations of those points correspond to the roots of the polynomial. 
 
 ### Nodes
 See (Day and Romero, 2005) for a complete description.  In short, the Legendre Polynomials satsify a three-term recurrence with :
