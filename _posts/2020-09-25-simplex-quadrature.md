@@ -36,8 +36,10 @@ the domain.
 
 ### Rodrigues' Generator
 We will use the Rodrigues' generating function in the following form
+{% raw %}
 $$P_n(x)=\sum_{k=0}^n \binom{n}{k} \binom{n+k}{k}\left(\frac{x-1}{2} \right)^k
 $$
+{% endraw %}
 
 ### Derivatives of Legendre Polynomials
 Actually what we need is the derivative of a Legendre Polynomial.  For that we use Bonnet's Recursion Formula which has :
