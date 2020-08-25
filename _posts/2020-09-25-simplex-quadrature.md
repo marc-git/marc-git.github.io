@@ -2,7 +2,6 @@
 layout:post
 title: "Gaussian Quadrature on Simplices"
 date: 2020-09-25
-usemathjax: true
 ---
 
 # Gaussian Quadrature on Simplices 
