@@ -71,3 +71,5 @@ The n-simplex has a vertex at each euclidean vector and at the origin.  The [-1,
 
 This simple mapping is the reason the point density tends to bunch at this point.  The determinant of the jacobian is not constant.
 
+
+![Sample](https://github.com/marc-git/pyquadrat/blob/master/gauss_int_12.png)
