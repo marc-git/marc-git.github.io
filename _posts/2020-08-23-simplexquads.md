@@ -67,4 +67,5 @@ and the eigenvalues of that matrix are the roots of the polynomial of degree n. 
 The n-cartesian product of the roots gives the integration points in the interval [-1,1]^n. The product of the corresponding weights also gives the final weight for a given integration point. 
 
 ## Mapping to the simplex
-To be completed...
+The n-simplex has a vertex at each euclidean vector and at the origin.  The [-1,1]^n hypercube can be mapped to the n-simplex by first shrinking the hypercube to the [0,1]^n form and then mapping each vertex to its nearest vertex, or, if more than one vertex is equally near, taking the average.  In the case of mapping the square to the triangle, this implies mapping the point (1,1) to (0.5,0.5).  It is analagous in higher dimensions. This simple mapping is the reason the point density tends to bunch at this point.  The determinant of the jacobian is not constant.
+
