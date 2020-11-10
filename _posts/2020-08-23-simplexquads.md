@@ -66,10 +66,13 @@ and the eigenvalues of that matrix are the roots of the polynomial of degree n. 
 ## Cartesian product
 The n-cartesian product of the roots gives the integration points in the interval [-1,1]^n. The product of the corresponding weights also gives the final weight for a given integration point. 
 
+In the Python module [PyQuadrat](https://github.com/marc-git/pyquadrat) this is performed by taking the return of the function `gauss_points_box`.  The first argument is the degree of the polynomial; the second is the number of space dimensions.  The roots of the one-dimensional Legendre polynomial to the specified degree are first calculated using `calculate_legendre_roots` and the returned vector is converted into a list of points with the associated weight as the last column of the list. 
+
 ## Mapping to the simplex
 The n-simplex has a vertex at each euclidean vector and at the origin.  The [-1,1]^n hypercube can be mapped to the n-simplex by first shrinking the hypercube to the [0,1]^n form and then mapping each vertex to its nearest vertex, or, if more than one vertex is equally near, taking the average.  In the case of mapping the square to the triangle, this implies mapping the point (1,1) to (0.5,0.5).  It is analagous in higher dimensions however some vertices will map to lines and others to surfaces or hypersurfaces. 
 
 This simple mapping is the reason the point density tends to bunch at this point.  The determinant of the jacobian is not constant.
 
+In [PyQuadrat](https://github.com/marc-git/pyquadrat) this is done by putting the output of `gauss_points_box` into the function `gauss_map_to_simplex`.  The latter relies heavily on the function `build_mapping` which does what was described above. 
 
 ![Sample](https://github.com/marc-git/pyquadrat/blob/master/gauss_int_12.png)
