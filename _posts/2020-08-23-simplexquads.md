@@ -73,6 +73,6 @@ The n-simplex has a vertex at each euclidean vector and at the origin.  The [-1,
 
 This simple mapping is the reason the point density tends to bunch at this point.  The determinant of the jacobian is not constant.
 
-In [PyQuadrat](https://github.com/marc-git/pyquadrat) this is done by putting the output of `gauss_points_box` into the function `gauss_map_to_simplex`.  The latter relies heavily on the function `build_mapping` which does what was described above. 
+In [PyQuadrat](https://github.com/marc-git/pyquadrat) this is done by putting the output of `gauss_points_box` into the function `gauss_map_to_simplex`.  The latter relies heavily on the function `build_mapping` which does what was described above. Note that all the weights are strictly positive.
 
 ![Sample](https://github.com/marc-git/pyquadrat/blob/master/gauss_int_12.png)
