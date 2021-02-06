@@ -24,7 +24,7 @@ Why bother with Legendre Polynomials? They have a number of great properties tha
   * They are a complete system (have good approximation properties for functions of lesser degree).
   * They exclude the end points (sometimes a negative).
   
-We will be working with normalised Legendre Polynomials (Monomials).  That means that the value each polynomial is one at x=1.  This has a number of consequences but the most useful one is that we can construct the sequence of polynomials up to degree n simply by applying the orthogonality condition. 
+We will be working with normalised Legendre Polynomials (monic polynomials).  That means that the value each polynomial is one at x=1.  This has a number of consequences but the most useful one is that we can construct the sequence of polynomials up to degree n simply by applying the orthogonality condition. 
 
 The first Legendre polynomial is the function equal to 1 everywhere on the interval [-1,1]. Then the next polynomial of one degree higher must be equal f(x)=x.  In fact because of the first polynomial, all of the following polynomials will integrate to zero over the domain. 
 
